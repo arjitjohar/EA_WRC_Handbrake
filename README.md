@@ -52,7 +52,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 - Technical documentation regarding esp32-s3 microcontrollers: [link](https://files.waveshare.com/wiki/common/Esp32-s3_technical_reference_manual_en.pdf)
 - Getting started guide with the microcontroller: [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview)
 - Understanding how usb works on the esp32s3 works: [link](https://www.youtube.com/watch?v=hJSBTFsOnoA&ab_channel=AndreasSpiess)
-- MCEC documentation - [link](https://tig.github.io/mcec/documentation.html)
+- MCEC documentation: [link](https://tig.github.io/mcec/documentation.html)
 ## Support Information
 If you like this project, consider starring it on GitHub!
 
