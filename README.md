@@ -43,7 +43,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 4. **Run the AHK Script**
    - Click and run the included .AHK script to rebind MBD and MBUP button the the "E" key up / down on your keyboard for WRC.
    - rebind the handbrake on WRC to be the "E" key instead as below
-   - ![image](https://github.com/user-attachments/assets/7eeb8c3e-b4b8-4cc0-b204-64ca6cb6c007)
+      ![image](https://github.com/user-attachments/assets/7eeb8c3e-b4b8-4cc0-b204-64ca6cb6c007)
 
 6. **Upload Code**:
    - Open the provided Arduino sketch.
