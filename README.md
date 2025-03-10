@@ -42,6 +42,13 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
    - The easiest way to make sure the package dependancies are met is to run the code in the `ESP32-S3-Touch-LCD-1.28-Test` folder. I have included the folder if you do not have it from the Waveshare ESP32-S3 controller tutorial.
 4. **Setup MCE Controller**
    - Find the `AppData\Roaming\Kindel` Systems directory and replace the `MCEControl.COMMANDS` file with the one attached in this folder. This will update which enabled commands are allowed to be executed with the MCEC Controller.
+   - Setup the client as ```localhost:5150``` as that is the port we will be communicating through for the microcontroller.
+     ![image](https://github.com/user-attachments/assets/7dd124cf-1956-4b72-ae78-7b6e54e74559)
+
+   - Setup the server as `5150`, same port as the one from the client to open communication.
+     
+   ![image](https://github.com/user-attachments/assets/4b724937-104e-4b04-bd18-f05c55936081)
+
 4. **Run the AHK Script**
    - Click and run the included .AHK script to rebind MBD and MBUP button to the "E" key up / down on your keyboard for WRC.
    - rebind the handbrake on WRC to be the "E" key instead as below
