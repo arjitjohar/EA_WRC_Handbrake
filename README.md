@@ -40,6 +40,8 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
    - Follow the getting started guide to get your micro controller working with arduino [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview). This is the guide for the Waveshare ESP32-S3 controller.
 3. **Ensure Package Dependancies Are Met**
    - The easiest way to make sure the package dependancies are met is to run the code in the "ESP32-S3-Touch-LCD-1.28-Test" folder. I have included the ESP32-S3-Touch-LCD-1.28-Test folder if you do not have it from the Waveshare ESP32-S3 controller tutorial.
+4. **Setup MCE Controller**
+   - Find the ```AppData\Roaming\Kindel``` Systems directory and replace the MCEControl file with the one attached in the folder.
 4. **Run the AHK Script**
    - Click and run the included .AHK script to rebind MBD and MBUP button to the "E" key up / down on your keyboard for WRC.
    - rebind the handbrake on WRC to be the "E" key instead as below
@@ -52,7 +54,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 
 
 ## Usage Examples
-- **Setup**: Connect the handbrake to your gaming setup and ensure it's recognized by the game. The Game it was tested on 
+- This code can be expanded upon further to be used with other racing games. This would be done by changing the settings in whatever game you are working with
 ## References
 - Technical documentation regarding esp32-s3 microcontrollers: [link](https://files.waveshare.com/wiki/common/Esp32-s3_technical_reference_manual_en.pdf)
 - Getting started guide with the microcontroller: [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview)
