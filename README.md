@@ -25,7 +25,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 ## Hardware Requirements
 - **ESP32 Board**: The one I am using for this project is Waveshares ESP32-S3 development board. It can be found [here](https://www.amazon.ca/dp/B0CM68M8LR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1).
 - **Touch Screen LED Display**: A compatible TFT LCD touchscreen display (e.g., 2.8 inch ILI9341).
-- **USB cable type A to type C connector**
+- **USB cable type A to type C connector**.
 
 ## Software Requirements
 - **Arduino IDE**: For programming the ESP32.
@@ -40,12 +40,6 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
    - Open Arduino IDE, go to **File** > **Preferences**.
    - Add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` to **Additional Board Manager URLs**.
    - Go to **Tools** > **Board** > **Boards Manager...**, search for **ESP32**, and install.
-3. **Install TFT Library**:
-   - Open Arduino IDE, go to **Sketch** > **Include Library** > **Manage Libraries...**.
-   - Search for and install the TFT library compatible with your display (e.g., Adafruit ILI9341).
-4. **Connect Hardware**:
-   - Wire the TFT display and touch screen to the ESP32 according to the pinout diagram.
-   - Connect power to the ESP32 and display.
 5. **Upload Code**:
    - Open the provided Arduino sketch.
    - Select the correct ESP32 board and COM port.
@@ -54,7 +48,11 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 ## Usage Examples
 - **Setup**: Connect the handbrake to your gaming setup and ensure it's recognized by the game.
 - **Calibration**: Adjust settings via the touch screen interface for optimal performance.
-
+## References
+- Technical documentation regarding esp32-s3 microcontrollers: [link](https://files.waveshare.com/wiki/common/Esp32-s3_technical_reference_manual_en.pdf)
+- Getting started guide with the microcontroller: [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview)
+- Understanding how usb works on the esp32s3 works: [link](https://www.youtube.com/watch?v=hJSBTFsOnoA&ab_channel=AndreasSpiess)
+- MCEC documentation - [link](https://tig.github.io/mcec/documentation.html)
 ## Support Information
 If you like this project, consider starring it on GitHub!
 
