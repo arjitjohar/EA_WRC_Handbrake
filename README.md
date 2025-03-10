@@ -26,14 +26,13 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 - **ESP32 Board**: The one I am using for this project is Waveshares ESP32-S3 development board. It can be found [here](https://www.amazon.ca/dp/B0CM68M8LR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1).
 - **Touch Screen LED Display**: A compatible TFT LCD touchscreen display (e.g., 2.8 inch ILI9341).
 - **USB cable type A to type C connector**
-- 
 
 ## Software Requirements
 - **Arduino IDE**: For programming the ESP32.
 - **ESP32 Board Package**: Install via Arduino IDE's Board Manager.
 - **TFT Library**: For interacting with the touchscreen display.
-- **MCEC Controller** For settin up communication between your PC and the microcontroller. Can be downloaded from here: https://github.com/tig/mcec/blob/40adcafe8ee8269d36d7c1a2df78227989695490/src/Commands/SendInputCommand.cs#L271
-- 
+- **MCEC Controller** For setting up communication between your PC and the microcontroller. Can be downloaded from [here](https://github.com/tig/mcec/blob/40adcafe8ee8269d36d7c1a2df78227989695490/src/Commands/SendInputCommand.cs#L271).
+- AutoHotKey: For some reason, EA WRC does not like the way buttons are being inputted when triggered through MCEC controller, so we need a script to workaround that.
 
 ## Installation Steps
 1. **Install Arduino IDE**: Download and install from [arduino.cc](https://www.arduino.cc/en/Main/Software).
