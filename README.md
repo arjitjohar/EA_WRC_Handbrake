@@ -61,15 +61,4 @@ Contributions are welcome! Please submit pull requests with detailed explanation
 This project is licensed under [License Name]. See LICENSE for details.
 
 ## Support Information
-If you like this project, consider starring it on GitHub or supporting future developments through donations.
-
-## Additional Tips
-- Use Markdown to format your README for better readability.
-- Include screenshots or images of the setup for clarity.
-- Provide a link to a demo or video tutorial if available.
-- Consider adding Shields.io badges for project metrics like GitHub stars or forks.
-
-This template should help you create a comprehensive README that guides users through setting up and using your custom handbrake project.
-
----
-Answer from Perplexity: pplx.ai/share
+If you like this project, consider starring it on GitHub!
