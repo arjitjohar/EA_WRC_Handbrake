@@ -5,10 +5,10 @@
 UWORD Imagesize = LCD_1IN28_HEIGHT * LCD_1IN28_WIDTH * 2;
 UWORD *BlackImage;
 
-const char* ssid = "WIFI_NAME";  // wifi name goes here
-const char* password = "WIFI_PASSWORD"; // wifi password goes here
-const char* host = "IP_ADDRESS"; //public ip address goes here
-const uint16_t port = 5150; // port used for communcation between microcontroller and pc.
+const char* ssid = "WIFI_NAME";  //wifi name
+const char* password = "WIFI_PSWD"; // wifi passwrd
+const char* host = "IP_ADDR"; // wifi network ip address
+const uint16_t port = 5150;
 WiFiClient client;
 
 CST816S touch(6, 7, 13, 5);  // sda, scl, rst, irq
