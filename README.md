@@ -1,5 +1,3 @@
-Here is your README formatted with Markdown:
-
 # Custom Handbrake for EA WRC using ESP32 and Touch Screen LED
 ## Overview
 This project involves creating a custom handbrake for EA WRC using an ESP32 microcontroller and a touch screen LED. It provides a unique way to enhance your gaming experience by integrating physical controls with the game.
