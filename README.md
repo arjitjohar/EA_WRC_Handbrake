@@ -38,9 +38,8 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 1. **Install Arduino IDE**: Download and install from [arduino.cc](https://www.arduino.cc/en/Main/Software).
 2. **Add ESP32 Board Package**:
    - Follow the getting started guide to get your micro controller working with arduino [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview). This is the guide for the Waveshare ESP32-S3 controller.
-3. **Ensure Package Dependancies Are Met
+3. **Ensure Package Dependancies Are Met**
    - the easiest way to make sure the package dependancies are met is to run the code in the "ESP32-S3-Touch-LCD-1.28-Test" folder. I have included the ESP32-S3-Touch-LCD-1.28-Test folder if you do not have it from the Waveshare ESP32-S3 controller tutorial.
-   - Upload the code 
 5. **Upload Code**:
    - Open the provided Arduino sketch.
    - Select the correct ESP32 board and COM port.
