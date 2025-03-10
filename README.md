@@ -25,7 +25,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 ## Hardware Requirements
 - **ESP32 Board**: The one I am using for this project is Waveshares ESP32-S3 development board. It can be found [here](https://www.amazon.ca/dp/B0CM68M8LR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1).
 - **Touch Screen LED Display**: A compatible TFT LCD touchscreen display (e.g., 2.8 inch ILI9341).
-- **USB cable type A to type C connector**.
+- **USB cable type A to type C connector**: for connecting the microcontroller to your PC running WRC.
 
 ## Software Requirements
 - **Arduino IDE**: For programming the ESP32.
