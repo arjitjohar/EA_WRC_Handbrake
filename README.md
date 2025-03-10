@@ -25,7 +25,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 ## Hardware Requirements
 - **ESP32 Board**: The one I am using for this project is Waveshares ESP32-S3 development board. It can be found [here](https://www.amazon.ca/dp/B0CM68M8LR?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1).
 - **Touch Screen LED Display**: A compatible TFT LCD touchscreen display (e.g., 2.8 inch ILI9341).
-- **USB cable type A to type C connector**: for connecting the microcontroller to your PC running WRC.
+- **USB cable type A to type C connector**: For connecting the microcontroller to your PC running WRC.
 
 ## Software Requirements
 - **Arduino IDE**: For programming the ESP32.
@@ -40,7 +40,9 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
    - Follow the getting started guide to get your micro controller working with arduino [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview). This is the guide for the Waveshare ESP32-S3 controller.
 3. **Ensure Package Dependancies Are Met**
    - The easiest way to make sure the package dependancies are met is to run the code in the "ESP32-S3-Touch-LCD-1.28-Test" folder. I have included the ESP32-S3-Touch-LCD-1.28-Test folder if you do not have it from the Waveshare ESP32-S3 controller tutorial.
-5. **Upload Code**:
+4. **Run the AHK Script**
+   - Click and run the included .AHK script to rebind MBD and MBUP button the the "E" key up / down on your keyboard for WRC. 
+6. **Upload Code**:
    - Open the provided Arduino sketch.
    - Select the correct ESP32 board and COM port.
    - Upload the code to the ESP32.
