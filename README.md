@@ -30,6 +30,8 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 - **Arduino IDE**: For programming the ESP32.
 - **ESP32 Board Package**: Install via Arduino IDE's Board Manager.
 - **TFT Library**: For interacting with the touchscreen display.
+- **MCEC Controller** For settin up communication between your PC and the microcontroller. Can be downloaded from here: https://github.com/tig/mcec/blob/40adcafe8ee8269d36d7c1a2df78227989695490/src/Commands/SendInputCommand.cs#L271
+- 
 
 ## Installation Steps
 1. **Install Arduino IDE**: Download and install from [arduino.cc](https://www.arduino.cc/en/Main/Software).
