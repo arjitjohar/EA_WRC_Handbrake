@@ -46,7 +46,8 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
      ![image](https://github.com/user-attachments/assets/7dd124cf-1956-4b72-ae78-7b6e54e74559)
 
    - Setup the server as `5150`, same port as the one from the client to open communication.
-     
+     ![image](https://github.com/user-attachments/assets/f4146aeb-c1cf-405e-8cb4-3cbce5d68d5c)
+   - Setup the serial server dependant on what COM port your microcontroller is using and what baudrate it uses as well. How to find these can be found from the documentation of your microcontroller. Verify those are correct.
    ![image](https://github.com/user-attachments/assets/4b724937-104e-4b04-bd18-f05c55936081)
 
 4. **Run the AHK Script**
