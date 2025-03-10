@@ -37,8 +37,7 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 ## Installation Steps
 1. **Install Arduino IDE**: Download and install from [arduino.cc](https://www.arduino.cc/en/Main/Software).
 2. **Add ESP32 Board Package**:
-   - Open Arduino IDE, go to **File** > **Preferences**.
-   - Add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` to **Additional Board Manager URLs**.
+   - Follow the getting started guide to get your micro controller working with arduino [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview). This is the guide for the Waveshare ESP32-S3 controller
    - Go to **Tools** > **Board** > **Boards Manager...**, search for **ESP32**, and install.
 5. **Upload Code**:
    - Open the provided Arduino sketch.
