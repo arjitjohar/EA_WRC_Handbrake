@@ -43,7 +43,8 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 4. **Setup MCE Controller**
    - Find the `AppData\Roaming\Kindel` Systems directory and replace the `MCEControl.COMMANDS` file with the one attached in this folder. This will update which enabled commands are allowed to be executed with the MCEC Controller.
    - Setup the client as ```localhost:5150``` as that is the port we will be communicating through for the microcontroller.
-     ![image](https://github.com/user-attachments/assets/7dd124cf-1956-4b72-ae78-7b6e54e74559)
+
+      ![image](https://github.com/user-attachments/assets/7dd124cf-1956-4b72-ae78-7b6e54e74559)
 
    - Setup the server as `5150`, same port as the one from the client to open communication.
      ![image](https://github.com/user-attachments/assets/f4146aeb-c1cf-405e-8cb4-3cbce5d68d5c)
