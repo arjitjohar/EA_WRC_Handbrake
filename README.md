@@ -12,8 +12,6 @@ This project involves creating a custom handbrake for EA WRC using an ESP32 micr
 - [Software Requirements](#software-requirements)
 - [Installation Steps](#installation-steps)
 - [Usage Examples](#usage-examples)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License Information](#license-information)
 - [Support Information](#support-information)
 
 ## Project Description
