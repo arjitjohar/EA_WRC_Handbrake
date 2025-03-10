@@ -54,11 +54,5 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 - **Setup**: Connect the handbrake to your gaming setup and ensure it's recognized by the game.
 - **Calibration**: Adjust settings via the touch screen interface for optimal performance.
 
-## Contribution Guidelines
-Contributions are welcome! Please submit pull requests with detailed explanations of changes.
-
-## License Information
-This project is licensed under [License Name]. See LICENSE for details.
-
 ## Support Information
 If you like this project, consider starring it on GitHub!
