@@ -38,15 +38,17 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 1. **Install Arduino IDE**: Download and install from [arduino.cc](https://www.arduino.cc/en/Main/Software).
 2. **Add ESP32 Board Package**:
    - Follow the getting started guide to get your micro controller working with arduino [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview). This is the guide for the Waveshare ESP32-S3 controller.
-   - Go to **Tools** > **Board** > **Boards Manager...**, search for **ESP32**, and install.
+3. **Ensure Package Dependancies Are Met
+   - the easiest way to make sure the package dependancies are met is to run the code in the "ESP32-S3-Touch-LCD-1.28-Test" folder. I have included the ESP32-S3-Touch-LCD-1.28-Test folder if you do not have it from the Waveshare ESP32-S3 controller tutorial.
+   - Upload the code 
 5. **Upload Code**:
    - Open the provided Arduino sketch.
    - Select the correct ESP32 board and COM port.
    - Upload the code to the ESP32.
 
+
 ## Usage Examples
-- **Setup**: Connect the handbrake to your gaming setup and ensure it's recognized by the game.
-- **Calibration**: Adjust settings via the touch screen interface for optimal performance.
+- **Setup**: Connect the handbrake to your gaming setup and ensure it's recognized by the game. The Game it was tested on 
 ## References
 - Technical documentation regarding esp32-s3 microcontrollers: [link](https://files.waveshare.com/wiki/common/Esp32-s3_technical_reference_manual_en.pdf)
 - Getting started guide with the microcontroller: [link](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.28#Overview)
