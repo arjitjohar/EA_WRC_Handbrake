@@ -19,7 +19,6 @@ This custom handbrake is designed to work seamlessly with EA WRC, providing a mo
 
 ### Features
 - **ESP32 Microcontroller**: Handles game interactions and sensor data.
-- **Touch Screen LED**: Provides visual feedback and user interface.
 - **Customizable**: Allows users to adjust settings for desired usecase.
 
 ## Hardware Requirements
